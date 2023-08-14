@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// In your entry file (e.g., index.js)
+import 'node-polyfill';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
